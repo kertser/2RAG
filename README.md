@@ -147,7 +147,7 @@ graph TD
 ### Workflow Example
 ```mermaid
 graph LR
-    A[User Query: "Safety steps for HV maintenance?"] --> B[FAISS: Retrieve Relevant Docs]
+    A[User Query: 'Safety steps for HV maintenance?'] --> B[FAISS: Retrieve Relevant Docs]
     B --> C[Flan-T5: Generate Frames]
     C --> D[LLaMA-70B: Reasoning]
     D --> E[Dynamic Frame Injection]
