@@ -129,7 +129,7 @@ The system can handle millions of documents and frames.
 
 ### System Architecture
 ```mermaid
-diagram TD
+graph TD
     A[RAG Document Bank] --> B[FAISS Vector Store]
     B --> C{Query}
     C --> D[Frame Generator (Flan-T5 XXL)]
@@ -142,6 +142,7 @@ diagram TD
     style D fill:#e6f3ff,stroke:#4a90e2
     style E fill:#e6f3ff,stroke:#4a90e2
     style F fill:#fff3e6,stroke:#ffa726
+
 ```
 
 ### Workflow Example
